@@ -1,6 +1,6 @@
 import CrosswordsRiddle from './CrosswordsRiddle.js'
 
-export default class Riddle4 extends CrosswordsRiddle {
+export default class RelationshipRiddle extends CrosswordsRiddle {
     constructor(props) {
         super(props);
         this.state = {
@@ -8,7 +8,7 @@ export default class Riddle4 extends CrosswordsRiddle {
                 {question: "", answer: "", expected: "", correct: false}
             ],
             solution: "PITWDCQ",
-            title: "Zagadki ze świata"
+            title: "Zagadki związkowe"
         }
     }
 }

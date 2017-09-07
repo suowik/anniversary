@@ -1,14 +1,14 @@
 import CrosswordsRiddle from './CrosswordsRiddle.js'
 
-export default class Riddle5 extends CrosswordsRiddle {
+export default class MoviesRiddle extends CrosswordsRiddle {
     constructor(props) {
         super(props);
         this.state = {
             questions: [
-                {question: "", answer: "", expected: "", correct: false}
+                {question: "", answer: "", expected: "", correct: false},
             ],
             solution: "GDPSAMIOMIQ",
-            title: "Zagadki ze świata"
+            title: "Zagadki filmowe"
         }
     }
 }

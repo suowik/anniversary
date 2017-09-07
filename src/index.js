@@ -8,10 +8,10 @@ import RiddleRenderer from './RiddleRenderer.js';
 import FinalRiddle from './FinalRiddle.js'
 
 import ScienceRiddle from './ScienceRiddle.js';
-import Riddle2 from './Riddle2.js'
-import Riddle3 from './Riddle3.js'
-import Riddle4 from './Riddle4.js'
-import Riddle5 from './Riddle5.js'
+import MusicRiddle from './MusicRiddle.js'
+import LanguageRiddle from './LanguageRiddle.js'
+import RelationshipRiddle from './RelationshipRiddle.js'
+import MoviesRiddle from './MoviesRiddle.js'
 
 class Routes extends Component {
 
@@ -20,10 +20,10 @@ class Routes extends Component {
         this.state = {
             riddles: [
                 {path: "riddle1", activationDate: "02-10-2017 9:00", renderer: ScienceRiddle, label: "Zagadka 1"},
-                {path: "riddle2", activationDate: "08-10-2017 9:00", renderer: Riddle2, label: "Zagadka 2"},
-                {path: "riddle3", activationDate: "10-10-2017 9:00", renderer: Riddle3, label: "Zagadka 3"},
-                {path: "riddle4", activationDate: "12-10-2017 9:00", renderer: Riddle4, label: "Zagadka 4"},
-                {path: "riddle5", activationDate: "23-10-2017 9:00", renderer: Riddle5, label: "Zagadka 5"},
+                {path: "riddle2", activationDate: "08-10-2017 9:00", renderer: MusicRiddle, label: "Zagadka 2"},
+                {path: "riddle3", activationDate: "10-10-2017 9:00", renderer: LanguageRiddle, label: "Zagadka 3"},
+                {path: "riddle4", activationDate: "12-10-2017 9:00", renderer: RelationshipRiddle, label: "Zagadka 4"},
+                {path: "riddle5", activationDate: "23-10-2017 9:00", renderer: MoviesRiddle, label: "Zagadka 5"},
                 {path: "final", activationDate: "01-11-2017 9:00", renderer: FinalRiddle, label: "Rozwiązanie"},
             ]
         }
@@ -40,10 +40,10 @@ class Routes extends Component {
                                                                 renderer={riddle.renderer}/>}/>
                     )}
                     <Route path="/test" component={ScienceRiddle}/>
-                    <Route path="/test2" component={Riddle2}/>
-                    <Route path="/test3" component={Riddle3}/>
-                    <Route path="/test4" component={Riddle4}/>
-                    <Route path="/test5" component={Riddle5}/>
+                    <Route path="/test2" component={MusicRiddle}/>
+                    <Route path="/test3" component={LanguageRiddle}/>
+                    <Route path="/test4" component={RelationshipRiddle}/>
+                    <Route path="/test5" component={MoviesRiddle}/>
                 </Route>
             </Router>
         )

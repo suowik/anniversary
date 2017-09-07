@@ -8,7 +8,7 @@ export default class CrosswordsRiddle extends Component {
             let questions = this.state.questions;
             let question = questions[index];
             question.answer = e.target.value.toLowerCase();
-            question.correct = e.target.value.toLowerCase() === question.expected;
+            question.correct = e.target.value.toLowerCase() === question.expected.toLowerCase();
             this.setState({
                 questions: questions
             })
