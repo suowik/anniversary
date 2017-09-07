@@ -5,7 +5,7 @@ export default class LanguageRiddle extends CrosswordsRiddle {
         super(props);
         this.state = {
             questions: [
-                {question: "", answer: "", expected: "", correct: false},
+                {question: "Ile znamy języków miłości?", answer: "", expected: "5", correct: false},
             ],
             solution: "NIWXIQ",
             title: "Zagadki językowe"

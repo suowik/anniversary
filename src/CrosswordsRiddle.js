@@ -22,7 +22,7 @@ export default class CrosswordsRiddle extends Component {
                 <table className="table table-bordered table-striped">
                     <tbody>
                     {this.state.questions.map((question, i) => {
-                        return <tr key={i} className={question.correct ? 'success' : 'warning'}>
+                        return <tr key={i} className={question.correct ? 'success' : 'danger'}>
                             <td>{i + 1}. {question.question}</td>
                             <td>
                                 <input type="text"
