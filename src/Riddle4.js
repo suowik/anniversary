@@ -1,13 +1,13 @@
 import CrosswordsRiddle from './CrosswordsRiddle.js'
 
-export default class ScienceRiddle extends CrosswordsRiddle {
+export default class Riddle4 extends CrosswordsRiddle {
     constructor(props) {
         super(props);
         this.state = {
             questions: [
                 {question: "", answer: "", expected: "", correct: false}
             ],
-            solution: "WTVEAMEWD",
+            solution: "PITWDCQ",
             title: "Zagadki ze świata"
         }
     }
