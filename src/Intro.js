@@ -37,6 +37,8 @@ class Intro extends Component {
                                 {riddle.label}
                             </button>)}
                     </div>
+                    <br/>
+                    PS. Do rozwiązania zagadek możesz używać Google, encyklopedii, intuicji... wszelkie chwyty dozwolone :)
                 </div>
             </div>
         );
