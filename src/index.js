@@ -24,7 +24,7 @@ class Routes extends Component {
                 {path: "riddle3", activationDate: "10-10-2017 9:00", renderer: Riddle3, label: "Zagadka 3"},
                 {path: "riddle4", activationDate: "12-10-2017 9:00", renderer: Riddle4, label: "Zagadka 4"},
                 {path: "riddle5", activationDate: "23-10-2017 9:00", renderer: Riddle5, label: "Zagadka 5"},
-                {path: "final", activationDate: "01-11-2017 9:00", renderer: FinalRiddle, label: "Ostatnia Zagadka"},
+                {path: "final", activationDate: "01-11-2017 9:00", renderer: FinalRiddle, label: "Rozwiązanie"},
             ]
         }
     }

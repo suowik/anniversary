@@ -26,7 +26,7 @@ class Intro extends Component {
                     Jeszcze o tym nie wiesz, ale czeka Cię przygoda. Przed Tobą pięć zagadek do rozwiązania.<br/>
                     Każda zagadka stanie się aktywna w dzień jakiejś naszej miesięcznicy i pozostanie w tym stanie przez
                     12 godzin, więc masz ograniczony czas na jej rozwiązanie :)<br/>
-                    Rozwiązaniem każdej zagadki jest hasło - zanotuj je sobie, przyda się później...
+                    Rozwiązaniem każdej zagadki jest hasło - zanotuj je sobie, przyda się później...<br/>
                     Zastanawiasz się pewnie jaka jest nagroda - cierpliwości :)<br/>
                     <br />
                     <br/>
