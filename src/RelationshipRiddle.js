@@ -5,7 +5,8 @@ export default class RelationshipRiddle extends CrosswordsRiddle {
         super(props);
         this.state = {
             questions: [
-                {question: "", answer: "", expected: "", correct: false}
+                {question: "Miejsce, w które lubisz być całowana z czułością", answer: "", expected: "czoło", correct: false},
+                {question: "", answer: "", expected: "", correct: false},
             ],
             solution: "PITWDCQ",
             title: "Zagadki związkowe"

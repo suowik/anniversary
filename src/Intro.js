@@ -24,7 +24,7 @@ class Intro extends Component {
                 <div className="col-lg-12">
                     <h1>Moja Piękna!</h1>
                     Jeszcze o tym nie wiesz, ale czeka Cię przygoda. Przed Tobą pięć zagadek do rozwiązania.<br/>
-                    Każda zagadka stanie się aktywna w dzień jakiejś naszej miesięcznicy i pozostanie w tym stanie przez
+                    Każda zagadka stanie się aktywna w dzień ważnej dla nas daty i pozostanie w tym stanie przez
                     12 godzin, więc masz ograniczony czas na jej rozwiązanie :)<br/>
                     Rozwiązaniem każdej zagadki jest hasło - zanotuj je sobie, przyda się później...<br/>
                     Zastanawiasz się pewnie jaka jest nagroda - cierpliwości :)<br/>
