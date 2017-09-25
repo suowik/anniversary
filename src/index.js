@@ -39,11 +39,6 @@ class Routes extends Component {
                                component={() => <RiddleRenderer activationDate={riddle.activationDate}
                                                                 renderer={riddle.renderer}/>}/>
                     )}
-                    <Route path="/test" component={ScienceRiddle}/>
-                    <Route path="/test2" component={MusicRiddle}/>
-                    <Route path="/test3" component={LanguageRiddle}/>
-                    <Route path="/test4" component={RelationshipRiddle}/>
-                    <Route path="/test5" component={MoviesRiddle}/>
                 </Route>
             </Router>
         )
