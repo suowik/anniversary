@@ -9,7 +9,7 @@ class Intro extends Component {
             e.preventDefault();
             let now = moment();
             let from = moment(_activationDate, "DD-MM-YYYY HH:mm");
-            let to = moment(_activationDate, "DD-MM-YYYY HH:mm").add(12, "h");
+            let to = moment(_activationDate, "DD-MM-YYYY HH:mm").add(24, "h");
             if (!now.isBetween(from, to)) {
                 alert('jeszcze nie czas :)');
                 return;

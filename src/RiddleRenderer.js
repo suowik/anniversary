@@ -11,7 +11,7 @@ export default class RiddleRenderer extends Component {
     render() {
         let canRender = moment().isBetween(
             moment(this.props.activationDate, this.dateFormat),
-            moment(this.props.activationDate, this.dateFormat).add(12, 'h')
+            moment(this.props.activationDate, this.dateFormat).add(24, 'h')
         );
         let Riddle = this.props.renderer;
         return (
