@@ -28,7 +28,14 @@ export default class FinalRiddle extends Component {
                 <input type="text" name="answer" className="form-control" onChange={this.onChange}/>
                 <span style={{fontWeight: 'bold'}}>{caesar(this.state.answer, 4).toUpperCase()}</span>
                 {this.state.expected.toLowerCase() === this.state.answer.toLowerCase() &&
-                <div>Widoczny</div>}
+                <div>
+                    <iframe width="560"
+                            height="315"
+                            title="Rozwiązanie"
+                            src="https://www.youtube.com/embed/KcYMaYT_Mkk"
+                            frameBorder="0"
+                            allowFullScreen/>
+                </div>}
             </div>
         )
     }
