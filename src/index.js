@@ -22,7 +22,7 @@ class Routes extends Component {
                 {path: "riddle1", activationDate: "02-10-2017 7:00", renderer: ScienceRiddle, label: "Zagadka 1"},
                 {path: "riddle2", activationDate: "08-10-2017 7:00", renderer: MusicRiddle, label: "Zagadka 2"},
                 {path: "riddle3", activationDate: "10-10-2017 7:00", renderer: LanguageRiddle, label: "Zagadka 3"},
-                {path: "riddle4", activationDate: "13-10-2017 7:00", renderer: RelationshipRiddle, label: "Zagadka 4"},
+                {path: "riddle4", activationDate: "14-10-2017 7:00", renderer: RelationshipRiddle, label: "Zagadka 4"},
                 {path: "riddle5", activationDate: "23-10-2017 7:00", renderer: MoviesRiddle, label: "Zagadka 5"},
                 {path: "final", activationDate: "01-11-2017 7:00", renderer: FinalRiddle, label: "Rozwiązanie"},
             ]
