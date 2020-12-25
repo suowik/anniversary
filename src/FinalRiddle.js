@@ -7,7 +7,7 @@ export default class FinalRiddle extends Component {
         super(props);
         this.state = {
             answer: "",
-            expected: "WTVEAMEWD DI NIWXIQ PITWDCQ GDPSAMIOMIQ"
+            expected: "OSGLEQ GMI"
         };
     }
 
@@ -19,23 +19,12 @@ export default class FinalRiddle extends Component {
     render() {
         return (
             <div className="row">
-                <strong>Skarbie</strong>, dziękuję, Ci za cały rok bycia razem!<br/>
-                To już ostatni etap gry :)<br/>
-                Wpisz poniżej odpowiedzi poprzednich zagadaek, każde hasło oddziel spacją. Jeśli wszystko poszło dobrze
-                to dowiesz się dwóch rzeczy:<br/>
-                1. Co będziemy robić w naszą rocznicę. <br/>
-                2. Za co jestem Ci najbardziej wdzięczny na świecie<br/>
+                <strong>Skarbie</strong>, dziękuję, Ci za trzy lata wspaniałego małżeństwa! :)<br/>
+                Poniżej wpisz odpowiedź.
                 <input type="text" name="answer" className="form-control" onChange={this.onChange}/>
                 <span style={{fontWeight: 'bold'}}>{caesar(this.state.answer, 4).toUpperCase()}</span>
                 {this.state.expected.toLowerCase() === this.state.answer.toLowerCase() &&
-                <div>
-                    <iframe width="560"
-                            height="315"
-                            title="Rozwiązanie"
-                            src="https://www.youtube.com/embed/KcYMaYT_Mkk"
-                            frameBorder="0"
-                            allowFullScreen/>
-                </div>}
+                <div>Laurka jest Twoim biurku w drugiej szufladzie od dołu</div>}
             </div>
         )
     }

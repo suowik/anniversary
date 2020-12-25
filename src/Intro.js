@@ -22,12 +22,10 @@ class Intro extends Component {
         return (
             <div className="row">
                 <div className="col-lg-12">
-                    <h1>Moja Piękna!</h1>
-                    Jeszcze o tym nie wiesz, ale czeka Cię przygoda. Przed Tobą pięć zagadek do rozwiązania.<br/>
-                    Każda zagadka stanie się aktywna w dzień ważnej dla nas daty i pozostanie w tym stanie przez
-                    12 godzin, więc masz ograniczony czas na jej rozwiązanie :)<br/>
-                    Rozwiązaniem każdej zagadki jest hasło - zanotuj je sobie, przyda się później...<br/>
-                    Zastanawiasz się pewnie jaka jest nagroda - cierpliwości :)<br/>
+                    <h1>Słońce moje!</h1>
+                    Huncwot Paweł ukrył przed Tobą laurkę :( <br/>
+                    Musisz rozwiązać kilka prostych zagadek, aby uzyskać do niej dostęp. <br/>
+                    Baw się dobrze!!!
                     <br />
                     <br/>
                     <div className="btn-group">
