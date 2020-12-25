@@ -16,7 +16,7 @@ class Routes extends Component {
         this.state = {
             riddles: [
                 {path: "riddle1", activationDate: "25-12-2020 7:00", renderer: ScienceRiddle, label: "Zagadki"},
-                {path: "final", activationDate: "25-12-2020 7:00", renderer: FinalRiddle, label: "Rozwiązanie"},
+                {path: "final", activationDate: "26-12-2020 7:00", renderer: FinalRiddle, label: "Rozwiązanie"},
             ]
         }
     }
